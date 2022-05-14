@@ -16,6 +16,7 @@ This project is a simple knowledge-based agent constrained with different model 
 Fortunately, the agent can often kill the Wumpus and win the game all with optimal actions and in various configurations as demonstrated through the models above. Yet, since we are constrained with time, especially as a capstone student, the agent still suffers from some limitations as my teammate and myself could not optimize it for every configuration. The limitations and faults include:
 - Agent, for some configurations, still considers previous model configurations which leads to faulty actions. For instance, if previous model’s Wumpus was at [3,3], the agent would, sometimes, consider 2 Wumpuses (the old one and the one corresponding to the newest model). Computing the score also gets influenced by such fault which results in a wrong game score.
 - Agent, sometimes, finds very non-optimal paths to killing the Wumpus.
+
 Hence, with room left for upgrading the agent, future work would touch upon:
 - Ensuring that previously defined/inferred facts are totally cleared out.
 - Optimizing agent actions through maintaining the maximum possible score.
